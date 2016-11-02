@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047FE17F1DC6DCCE00F6B166 /* GXFLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE17E1DC6DCCE00F6B166 /* GXFLoopView.m */; };
+		047FE1821DC6E74000F6B166 /* GXFFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE1811DC6E74000F6B166 /* GXFFlowLayout.m */; };
+		047FE1861DC6F67300F6B166 /* GXFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047FE1851DC6F67300F6B166 /* GXFCollectionViewCell.m */; };
 		04C7BBC01DC6D43800BA9920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BBBF1DC6D43800BA9920 /* main.m */; };
 		04C7BBC31DC6D43800BA9920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BBC21DC6D43800BA9920 /* AppDelegate.m */; };
 		04C7BBC61DC6D43800BA9920 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BBC51DC6D43800BA9920 /* ViewController.m */; };
@@ -14,6 +17,8 @@
 		04C7BBCB1DC6D43800BA9920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BBCA1DC6D43800BA9920 /* Assets.xcassets */; };
 		04C7BBCE1DC6D43800BA9920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7BBCC1DC6D43800BA9920 /* LaunchScreen.storyboard */; };
 		04C7BBD91DC6D43900BA9920 /* _21___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7BBD81DC6D43900BA9920 /* _21___________UITests.m */; };
+		0A8826F668757E50BD441C37 /* libPods-021-- 图片轮播（无限）.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD60CF843CB748B03EECAB /* libPods-021-- 图片轮播（无限）.a */; };
+		FF9FB3B96B3BA1CB2469F42E /* libPods-021-- 图片轮播（无限）UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4F5016D9F35CEAC01A2262 /* libPods-021-- 图片轮播（无限）UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01CD60CF843CB748B03EECAB /* libPods-021-- 图片轮播（无限）.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-021-- 图片轮播（无限）.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047FE17D1DC6DCCE00F6B166 /* GXFLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFLoopView.h; sourceTree = "<group>"; };
+		047FE17E1DC6DCCE00F6B166 /* GXFLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFLoopView.m; sourceTree = "<group>"; };
+		047FE1801DC6E74000F6B166 /* GXFFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFFlowLayout.h; sourceTree = "<group>"; };
+		047FE1811DC6E74000F6B166 /* GXFFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFFlowLayout.m; sourceTree = "<group>"; };
+		047FE1831DC6E91100F6B166 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		047FE1841DC6F67300F6B166 /* GXFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFCollectionViewCell.h; sourceTree = "<group>"; };
+		047FE1851DC6F67300F6B166 /* GXFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFCollectionViewCell.m; sourceTree = "<group>"; };
 		04C7BBBB1DC6D43800BA9920 /* 021-- 图片轮播（无限）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "021-- 图片轮播（无限）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7BBBF1DC6D43800BA9920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04C7BBC11DC6D43800BA9920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +53,11 @@
 		04C7BBD41DC6D43900BA9920 /* 021-- 图片轮播（无限）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "021-- 图片轮播（无限）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7BBD81DC6D43900BA9920 /* _21___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_21___________UITests.m"; sourceTree = "<group>"; };
 		04C7BBDA1DC6D43900BA9920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390BBD7BD3C6E9768B97AC8C /* Pods-021-- 图片轮播（无限）.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021-- 图片轮播（无限）.debug.xcconfig"; path = "Pods/Target Support Files/Pods-021-- 图片轮播（无限）/Pods-021-- 图片轮播（无限）.debug.xcconfig"; sourceTree = "<group>"; };
+		5C939B77C5B59AF40EDC33FC /* Pods-021-- 图片轮播（无限）UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021-- 图片轮播（无限）UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-021-- 图片轮播（无限）UITests/Pods-021-- 图片轮播（无限）UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADACAC8EA9CCBE2AF0E6807 /* Pods-021-- 图片轮播（无限）UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021-- 图片轮播（无限）UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-021-- 图片轮播（无限）UITests/Pods-021-- 图片轮播（无限）UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D4F5016D9F35CEAC01A2262 /* libPods-021-- 图片轮播（无限）UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-021-- 图片轮播（无限）UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1FD3CC03E6548F1E4D98B5 /* Pods-021-- 图片轮播（无限）.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-021-- 图片轮播（无限）.release.xcconfig"; path = "Pods/Target Support Files/Pods-021-- 图片轮播（无限）/Pods-021-- 图片轮播（无限）.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8826F668757E50BD441C37 /* libPods-021-- 图片轮播（无限）.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9FB3B96B3BA1CB2469F42E /* libPods-021-- 图片轮播（无限）UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +86,8 @@
 				04C7BBBD1DC6D43800BA9920 /* 021-- 图片轮播（无限） */,
 				04C7BBD71DC6D43900BA9920 /* 021-- 图片轮播（无限）UITests */,
 				04C7BBBC1DC6D43800BA9920 /* Products */,
+				66E63AFB4AAD30AE03E7AFB9 /* Pods */,
+				A5BA3DC765460DCE0AFAA7A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +107,13 @@
 				04C7BBC21DC6D43800BA9920 /* AppDelegate.m */,
 				04C7BBC41DC6D43800BA9920 /* ViewController.h */,
 				04C7BBC51DC6D43800BA9920 /* ViewController.m */,
+				047FE17D1DC6DCCE00F6B166 /* GXFLoopView.h */,
+				047FE17E1DC6DCCE00F6B166 /* GXFLoopView.m */,
+				047FE1801DC6E74000F6B166 /* GXFFlowLayout.h */,
+				047FE1811DC6E74000F6B166 /* GXFFlowLayout.m */,
+				047FE1841DC6F67300F6B166 /* GXFCollectionViewCell.h */,
+				047FE1851DC6F67300F6B166 /* GXFCollectionViewCell.m */,
+				047FE1831DC6E91100F6B166 /* PrefixHeader.pch */,
 				04C7BBC71DC6D43800BA9920 /* Main.storyboard */,
 				04C7BBCA1DC6D43800BA9920 /* Assets.xcassets */,
 				04C7BBCC1DC6D43800BA9920 /* LaunchScreen.storyboard */,
@@ -111,6 +140,26 @@
 			path = "021-- 图片轮播（无限）UITests";
 			sourceTree = "<group>";
 		};
+		66E63AFB4AAD30AE03E7AFB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390BBD7BD3C6E9768B97AC8C /* Pods-021-- 图片轮播（无限）.debug.xcconfig */,
+				CD1FD3CC03E6548F1E4D98B5 /* Pods-021-- 图片轮播（无限）.release.xcconfig */,
+				5C939B77C5B59AF40EDC33FC /* Pods-021-- 图片轮播（无限）UITests.debug.xcconfig */,
+				8ADACAC8EA9CCBE2AF0E6807 /* Pods-021-- 图片轮播（无限）UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5BA3DC765460DCE0AFAA7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01CD60CF843CB748B03EECAB /* libPods-021-- 图片轮播（无限）.a */,
+				9D4F5016D9F35CEAC01A2262 /* libPods-021-- 图片轮播（无限）UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C7BBDD1DC6D43900BA9920 /* Build configuration list for PBXNativeTarget "021-- 图片轮播（无限）" */;
 			buildPhases = (
+				7BE6003382B0BAD4E86C520C /* [CP] Check Pods Manifest.lock */,
 				04C7BBB71DC6D43800BA9920 /* Sources */,
 				04C7BBB81DC6D43800BA9920 /* Frameworks */,
 				04C7BBB91DC6D43800BA9920 /* Resources */,
+				168BB521170DFCC2AA498618 /* [CP] Embed Pods Frameworks */,
+				AD510F36CACFAA24AA6719A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C7BBE01DC6D43900BA9920 /* Build configuration list for PBXNativeTarget "021-- 图片轮播（无限）UITests" */;
 			buildPhases = (
+				F0EF46C11F2ADDCF74D0E377 /* [CP] Check Pods Manifest.lock */,
 				04C7BBD01DC6D43900BA9920 /* Sources */,
 				04C7BBD11DC6D43900BA9920 /* Frameworks */,
 				04C7BBD21DC6D43900BA9920 /* Resources */,
+				3EFE9CFA20EC351ECD8DFAD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +214,7 @@
 				TargetAttributes = {
 					04C7BBBA1DC6D43800BA9920 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YF5P95RLXZ;
 						ProvisioningStyle = Automatic;
 					};
 					04C7BBD31DC6D43900BA9920 = {
@@ -208,13 +263,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		168BB521170DFCC2AA498618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-021-- 图片轮播（无限）/Pods-021-- 图片轮播（无限）-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EFE9CFA20EC351ECD8DFAD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-021-- 图片轮播（无限）UITests/Pods-021-- 图片轮播（无限）UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE6003382B0BAD4E86C520C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD510F36CACFAA24AA6719A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-021-- 图片轮播（无限）/Pods-021-- 图片轮播（无限）-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0EF46C11F2ADDCF74D0E377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04C7BBB71DC6D43800BA9920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047FE1821DC6E74000F6B166 /* GXFFlowLayout.m in Sources */,
 				04C7BBC61DC6D43800BA9920 /* ViewController.m in Sources */,
+				047FE1861DC6F67300F6B166 /* GXFCollectionViewCell.m in Sources */,
 				04C7BBC31DC6D43800BA9920 /* AppDelegate.m in Sources */,
+				047FE17F1DC6DCCE00F6B166 /* GXFLoopView.m in Sources */,
 				04C7BBC01DC6D43800BA9920 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +483,11 @@
 		};
 		04C7BBDE1DC6D43900BA9920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390BBD7BD3C6E9768B97AC8C /* Pods-021-- 图片轮播（无限）.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF5P95RLXZ;
+				GCC_PREFIX_HEADER = "./021-- 图片轮播（无限）/PrefixHeader.pch";
 				INFOPLIST_FILE = "021-- 图片轮播（无限）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guxuefei.-21-----------";
@@ -358,8 +497,11 @@
 		};
 		04C7BBDF1DC6D43900BA9920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1FD3CC03E6548F1E4D98B5 /* Pods-021-- 图片轮播（无限）.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF5P95RLXZ;
+				GCC_PREFIX_HEADER = "./021-- 图片轮播（无限）/PrefixHeader.pch";
 				INFOPLIST_FILE = "021-- 图片轮播（无限）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "guxuefei.-21-----------";
@@ -369,6 +511,7 @@
 		};
 		04C7BBE11DC6D43900BA9920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C939B77C5B59AF40EDC33FC /* Pods-021-- 图片轮播（无限）UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "021-- 图片轮播（无限）UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -380,6 +523,7 @@
 		};
 		04C7BBE21DC6D43900BA9920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADACAC8EA9CCBE2AF0E6807 /* Pods-021-- 图片轮播（无限）UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "021-- 图片轮播（无限）UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -408,6 +552,7 @@
 				04C7BBDF1DC6D43900BA9920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C7BBE01DC6D43900BA9920 /* Build configuration list for PBXNativeTarget "021-- 图片轮播（无限）UITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +561,7 @@
 				04C7BBE21DC6D43900BA9920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
